@@ -1,21 +1,21 @@
 module.exports = {
   siteMetadata: {
-    title: `Catalyst Sanity`,
-    description: `Speed up your GatsbyJS development workflow. Designed as a set of opinionated and advanced themes and starters using MDX and Theme-UI. Incorporates gatsby-theme-catalyst-core, gatsby-theme-catalyst-header-top, and gatsby-theme-catalyst-footer.`,
-    keywords: [`gatsby`, `theme`, `react`],
-    author: `Eric Howey`,
-    siteUrl: `https://gatsby-starter-catalyst-sanity.netlify.app`, //Change to you site address, required for sitemap.xml and robots.txt file among other things
+    title: `Tove Möller`,
+    description: `Tove Möller Portfolio`,
+    keywords: [`Tove Möller`, `art`, `portfolio`],
+    author: `Tove Möller`,
+    siteUrl: `https://sanity-catalyst-web-1pjpkov8.netlify.app/`, //Change to you site address, required for sitemap.xml and robots.txt file among other things
     menuLinks: [
       {
-        name: `Page 1`,
-        link: `/page-1`,
+        name: `Portfolio`,
+        link: `/portfolio`,
         type: `internal`, //internal or anchor
       },
     ],
     socialLinks: [
       {
         name: `Email`,
-        link: `eric@erichowey.dev`,
+        link: `tove.moller@gmail.com`,
         location: `footer`, //Options are "all", "header", "footer"
       },
       {
@@ -77,6 +77,7 @@ module.exports = {
         // useSanityTheme: false // Experimental right now
         sanityProjectId: "6oh2okob",
         sanityProjectDataset: "production",
+        sanityToken: process.env.SANITY_TOKEN
       },
     },
 
