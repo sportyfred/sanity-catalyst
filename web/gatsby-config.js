@@ -65,7 +65,7 @@ module.exports = {
         // sanityProjectId: "abc123" // Required
         // sanityDataset: "production"
         // sanityToken: null
-        sanityWatchMode: true
+        sanityWatchMode: true,
         // sanityOverlayDrafts: false // Token is required for this
         // sanityCreatePages: true
         // sanityCreatePosts: true
